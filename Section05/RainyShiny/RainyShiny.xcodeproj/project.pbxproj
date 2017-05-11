@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2BC0BF1EB76733003C0AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BC0BE1EB76733003C0AEE /* AppDelegate.swift */; };
+		4C2BC0C11EB76733003C0AEE /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BC0C01EB76733003C0AEE /* WeatherVC.swift */; };
+		4C2BC0C41EB76733003C0AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BC0C21EB76733003C0AEE /* Main.storyboard */; };
+		4C2BC0C61EB76733003C0AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BC0C51EB76733003C0AEE /* Assets.xcassets */; };
+		4C2BC0C91EB76733003C0AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BC0C71EB76733003C0AEE /* LaunchScreen.storyboard */; };
+		4C2BC0E91EB778D3003C0AEE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BC0DC1EB77708003C0AEE /* Alamofire.framework */; };
+		4C2BC0EA1EB778D3003C0AEE /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BC0DC1EB77708003C0AEE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C2BC0F71EB9068F003C0AEE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BC0F61EB9068F003C0AEE /* Constants.swift */; };
+		4C2BC0F91EB9A3B6003C0AEE /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BC0F81EB9A3B6003C0AEE /* CurrentWeather.swift */; };
+		4CA7E13F1EC3966E00077673 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7E13E1EC3966E00077673 /* Forecast.swift */; };
+		4CA7E1481EC3BC9A00077673 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7E1471EC3BC9A00077673 /* ForecastCell.swift */; };
+		4CA7E14A1EC42E9000077673 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7E1491EC42E9000077673 /* Location.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2BC0DB1EB77708003C0AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		4C2BC0DD1EB77708003C0AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		4C2BC0DF1EB77708003C0AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		4C2BC0E11EB77708003C0AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		4C2BC0E31EB77708003C0AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		4C2BC0E51EB77708003C0AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		4C2BC0E71EB77708003C0AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		4C2BC0EB1EB778D3003C0AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C2BC0ED1EB778D3003C0AEE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C2BC0EA1EB778D3003C0AEE /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C2BC0BB1EB76733003C0AEE /* RainyShiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainyShiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2BC0BE1EB76733003C0AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C2BC0C01EB76733003C0AEE /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		4C2BC0C31EB76733003C0AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C2BC0C51EB76733003C0AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C2BC0C81EB76733003C0AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C2BC0CA1EB76733003C0AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		4C2BC0F61EB9068F003C0AEE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4C2BC0F81EB9A3B6003C0AEE /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		4CA7E13E1EC3966E00077673 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		4CA7E1471EC3BC9A00077673 /* ForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
+		4CA7E1491EC42E9000077673 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2BC0B81EB76733003C0AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2BC0E91EB778D3003C0AEE /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2BC0B21EB76733003C0AEE = {
+			isa = PBXGroup;
+			children = (
+				4C2BC0BD1EB76733003C0AEE /* RainyShiny */,
+				4C2BC0BC1EB76733003C0AEE /* Products */,
+				4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2BC0BC1EB76733003C0AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BC0BB1EB76733003C0AEE /* RainyShiny.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2BC0BD1EB76733003C0AEE /* RainyShiny */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BC0F61EB9068F003C0AEE /* Constants.swift */,
+				4C2BC0F81EB9A3B6003C0AEE /* CurrentWeather.swift */,
+				4CA7E13E1EC3966E00077673 /* Forecast.swift */,
+				4C2BC0BE1EB76733003C0AEE /* AppDelegate.swift */,
+				4C2BC0C01EB76733003C0AEE /* WeatherVC.swift */,
+				4CA7E1471EC3BC9A00077673 /* ForecastCell.swift */,
+				4CA7E1491EC42E9000077673 /* Location.swift */,
+				4C2BC0C21EB76733003C0AEE /* Main.storyboard */,
+				4C2BC0C51EB76733003C0AEE /* Assets.xcassets */,
+				4C2BC0C71EB76733003C0AEE /* LaunchScreen.storyboard */,
+				4C2BC0CA1EB76733003C0AEE /* Info.plist */,
+			);
+			path = RainyShiny;
+			sourceTree = "<group>";
+		};
+		4C2BC0D11EB77708003C0AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BC0DC1EB77708003C0AEE /* Alamofire.framework */,
+				4C2BC0DE1EB77708003C0AEE /* Alamofire iOS Tests.xctest */,
+				4C2BC0E01EB77708003C0AEE /* Alamofire.framework */,
+				4C2BC0E21EB77708003C0AEE /* Alamofire macOS Tests.xctest */,
+				4C2BC0E41EB77708003C0AEE /* Alamofire.framework */,
+				4C2BC0E61EB77708003C0AEE /* Alamofire tvOS Tests.xctest */,
+				4C2BC0E81EB77708003C0AEE /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2BC0BA1EB76733003C0AEE /* RainyShiny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2BC0CD1EB76733003C0AEE /* Build configuration list for PBXNativeTarget "RainyShiny" */;
+			buildPhases = (
+				4C2BC0B71EB76733003C0AEE /* Sources */,
+				4C2BC0B81EB76733003C0AEE /* Frameworks */,
+				4C2BC0B91EB76733003C0AEE /* Resources */,
+				4C2BC0ED1EB778D3003C0AEE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2BC0EC1EB778D3003C0AEE /* PBXTargetDependency */,
+			);
+			name = RainyShiny;
+			productName = RainyShiny;
+			productReference = 4C2BC0BB1EB76733003C0AEE /* RainyShiny.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2BC0B31EB76733003C0AEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nikolay Kolesnikov";
+				TargetAttributes = {
+					4C2BC0BA1EB76733003C0AEE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8SH8NY37S7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C2BC0B61EB76733003C0AEE /* Build configuration list for PBXProject "RainyShiny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2BC0B21EB76733003C0AEE;
+			productRefGroup = 4C2BC0BC1EB76733003C0AEE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4C2BC0D11EB77708003C0AEE /* Products */;
+					ProjectRef = 4C2BC0D01EB77708003C0AEE /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4C2BC0BA1EB76733003C0AEE /* RainyShiny */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4C2BC0DC1EB77708003C0AEE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4C2BC0DB1EB77708003C0AEE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C2BC0DE1EB77708003C0AEE /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 4C2BC0DD1EB77708003C0AEE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C2BC0E01EB77708003C0AEE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4C2BC0DF1EB77708003C0AEE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C2BC0E21EB77708003C0AEE /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 4C2BC0E11EB77708003C0AEE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C2BC0E41EB77708003C0AEE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4C2BC0E31EB77708003C0AEE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C2BC0E61EB77708003C0AEE /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 4C2BC0E51EB77708003C0AEE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C2BC0E81EB77708003C0AEE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4C2BC0E71EB77708003C0AEE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2BC0B91EB76733003C0AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2BC0C91EB76733003C0AEE /* LaunchScreen.storyboard in Resources */,
+				4C2BC0C61EB76733003C0AEE /* Assets.xcassets in Resources */,
+				4C2BC0C41EB76733003C0AEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2BC0B71EB76733003C0AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2BC0C11EB76733003C0AEE /* WeatherVC.swift in Sources */,
+				4C2BC0BF1EB76733003C0AEE /* AppDelegate.swift in Sources */,
+				4C2BC0F91EB9A3B6003C0AEE /* CurrentWeather.swift in Sources */,
+				4C2BC0F71EB9068F003C0AEE /* Constants.swift in Sources */,
+				4CA7E1481EC3BC9A00077673 /* ForecastCell.swift in Sources */,
+				4CA7E13F1EC3966E00077673 /* Forecast.swift in Sources */,
+				4CA7E14A1EC42E9000077673 /* Location.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C2BC0EC1EB778D3003C0AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 4C2BC0EB1EB778D3003C0AEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C2BC0C21EB76733003C0AEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2BC0C31EB76733003C0AEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C2BC0C71EB76733003C0AEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2BC0C81EB76733003C0AEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C2BC0CB1EB76733003C0AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C2BC0CC1EB76733003C0AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C2BC0CE1EB76733003C0AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SH8NY37S7;
+				INFOPLIST_FILE = RainyShiny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nkpro.RainyShiny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C2BC0CF1EB76733003C0AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SH8NY37S7;
+				INFOPLIST_FILE = RainyShiny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nkpro.RainyShiny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2BC0B61EB76733003C0AEE /* Build configuration list for PBXProject "RainyShiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2BC0CB1EB76733003C0AEE /* Debug */,
+				4C2BC0CC1EB76733003C0AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2BC0CD1EB76733003C0AEE /* Build configuration list for PBXNativeTarget "RainyShiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2BC0CE1EB76733003C0AEE /* Debug */,
+				4C2BC0CF1EB76733003C0AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2BC0B31EB76733003C0AEE /* Project object */;
+}
