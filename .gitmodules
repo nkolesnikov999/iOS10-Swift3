@@ -1,3 +1,6 @@
 [submodule "Section05/RainyShiny/Alamofire"]
 	path = Section05/RainyShiny/Alamofire
 	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Section05/Pokedex/Alamofire"]
+	path = Section05/Pokedex/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
