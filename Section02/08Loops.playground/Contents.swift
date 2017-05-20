@@ -43,7 +43,10 @@ for salary in salaries {
     print("Salary: \(salary)")
 }
 
-
+for x in -87...87 {
+    let alfa = Double(x) * .pi / 180
+    var y = tan(alfa)
+}
 
 
 
