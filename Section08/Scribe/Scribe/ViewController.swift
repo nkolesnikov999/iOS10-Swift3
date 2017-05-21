@@ -11,7 +11,7 @@ import Speech
 import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
-
+    
     @IBOutlet weak var activitySpinner: UIActivityIndicatorView!
     @IBOutlet weak var transcriptionTextField: UITextView!
     
@@ -63,6 +63,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         self.activitySpinner.stopAnimating()
         self.activitySpinner.isHidden = true
     }
-
+    
 }
 
