@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C45460F1ED69EAF00E981D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45460E1ED69EAF00E981D5 /* AppDelegate.swift */; };
+		4C4546111ED69EAF00E981D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4546101ED69EAF00E981D5 /* ViewController.swift */; };
+		4C4546161ED69EAF00E981D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4546151ED69EAF00E981D5 /* Assets.xcassets */; };
+		4C4546191ED69EAF00E981D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4546171ED69EAF00E981D5 /* LaunchScreen.storyboard */; };
+		4C4546211ED69F2500E981D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C4546201ED69F2500E981D5 /* GoogleService-Info.plist */; };
+		4C4546251ED6A2E200E981D5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4546221ED6A2E200E981D5 /* DataService.swift */; };
+		4C4546261ED6A2E200E981D5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4546231ED6A2E200E981D5 /* Message.swift */; };
+		4C4546271ED6A2E200E981D5 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4546241ED6A2E200E981D5 /* MessageCell.swift */; };
+		4C4546291ED6A43900E981D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4546281ED6A43900E981D5 /* Main.storyboard */; };
+		A1A96566FFF791912D95A17B /* Pods_FirebaseSortData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F4F96B09CE5323DF26149C /* Pods_FirebaseSortData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23F4F96B09CE5323DF26149C /* Pods_FirebaseSortData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSortData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA210902BCA2A987F45BA06 /* Pods-FirebaseSortData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSortData.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSortData/Pods-FirebaseSortData.release.xcconfig"; sourceTree = "<group>"; };
+		4C45460B1ED69EAF00E981D5 /* FirebaseSortData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSortData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C45460E1ED69EAF00E981D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C4546101ED69EAF00E981D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C4546151ED69EAF00E981D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C4546181ED69EAF00E981D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C45461A1ED69EAF00E981D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4546201ED69F2500E981D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C4546221ED6A2E200E981D5 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		4C4546231ED6A2E200E981D5 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4C4546241ED6A2E200E981D5 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		4C4546281ED6A43900E981D5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A7F0A664EE681965904C5499 /* Pods-FirebaseSortData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSortData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSortData/Pods-FirebaseSortData.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4546081ED69EAF00E981D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A96566FFF791912D95A17B /* Pods_FirebaseSortData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4546021ED69EAF00E981D5 = {
+			isa = PBXGroup;
+			children = (
+				4C45460D1ED69EAF00E981D5 /* FirebaseSortData */,
+				4C45460C1ED69EAF00E981D5 /* Products */,
+				D88AF4FE1B78A8982B37B852 /* Pods */,
+				8C7CED90D9290542AA08DF87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C45460C1ED69EAF00E981D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C45460B1ED69EAF00E981D5 /* FirebaseSortData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C45460D1ED69EAF00E981D5 /* FirebaseSortData */ = {
+			isa = PBXGroup;
+			children = (
+				4C45460E1ED69EAF00E981D5 /* AppDelegate.swift */,
+				4C4546101ED69EAF00E981D5 /* ViewController.swift */,
+				4C4546151ED69EAF00E981D5 /* Assets.xcassets */,
+				4C4546281ED6A43900E981D5 /* Main.storyboard */,
+				4C4546171ED69EAF00E981D5 /* LaunchScreen.storyboard */,
+				4C45461A1ED69EAF00E981D5 /* Info.plist */,
+				4C4546201ED69F2500E981D5 /* GoogleService-Info.plist */,
+				4C4546221ED6A2E200E981D5 /* DataService.swift */,
+				4C4546231ED6A2E200E981D5 /* Message.swift */,
+				4C4546241ED6A2E200E981D5 /* MessageCell.swift */,
+			);
+			path = FirebaseSortData;
+			sourceTree = "<group>";
+		};
+		8C7CED90D9290542AA08DF87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23F4F96B09CE5323DF26149C /* Pods_FirebaseSortData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D88AF4FE1B78A8982B37B852 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7F0A664EE681965904C5499 /* Pods-FirebaseSortData.debug.xcconfig */,
+				3DA210902BCA2A987F45BA06 /* Pods-FirebaseSortData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C45460A1ED69EAF00E981D5 /* FirebaseSortData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C45461D1ED69EAF00E981D5 /* Build configuration list for PBXNativeTarget "FirebaseSortData" */;
+			buildPhases = (
+				AC441942BCB0CB92482AA12C /* [CP] Check Pods Manifest.lock */,
+				4C4546071ED69EAF00E981D5 /* Sources */,
+				4C4546081ED69EAF00E981D5 /* Frameworks */,
+				4C4546091ED69EAF00E981D5 /* Resources */,
+				559B35C57F2022C8C0953BDA /* [CP] Embed Pods Frameworks */,
+				7093BB9D6DCA14E639EDDF05 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseSortData;
+			productName = FirebaseSortData;
+			productReference = 4C45460B1ED69EAF00E981D5 /* FirebaseSortData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4546031ED69EAF00E981D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nikolay Kolesnikov";
+				TargetAttributes = {
+					4C45460A1ED69EAF00E981D5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8SH8NY37S7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C4546061ED69EAF00E981D5 /* Build configuration list for PBXProject "FirebaseSortData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C4546021ED69EAF00E981D5;
+			productRefGroup = 4C45460C1ED69EAF00E981D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C45460A1ED69EAF00E981D5 /* FirebaseSortData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C4546091ED69EAF00E981D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4546191ED69EAF00E981D5 /* LaunchScreen.storyboard in Resources */,
+				4C4546211ED69F2500E981D5 /* GoogleService-Info.plist in Resources */,
+				4C4546161ED69EAF00E981D5 /* Assets.xcassets in Resources */,
+				4C4546291ED6A43900E981D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		559B35C57F2022C8C0953BDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSortData/Pods-FirebaseSortData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7093BB9D6DCA14E639EDDF05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSortData/Pods-FirebaseSortData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC441942BCB0CB92482AA12C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4546071ED69EAF00E981D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4546251ED6A2E200E981D5 /* DataService.swift in Sources */,
+				4C4546271ED6A2E200E981D5 /* MessageCell.swift in Sources */,
+				4C4546261ED6A2E200E981D5 /* Message.swift in Sources */,
+				4C4546111ED69EAF00E981D5 /* ViewController.swift in Sources */,
+				4C45460F1ED69EAF00E981D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C4546171ED69EAF00E981D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4546181ED69EAF00E981D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C45461B1ED69EAF00E981D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C45461C1ED69EAF00E981D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C45461E1ED69EAF00E981D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F0A664EE681965904C5499 /* Pods-FirebaseSortData.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SH8NY37S7;
+				INFOPLIST_FILE = FirebaseSortData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nkpro.FirebaseSortData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C45461F1ED69EAF00E981D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA210902BCA2A987F45BA06 /* Pods-FirebaseSortData.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SH8NY37S7;
+				INFOPLIST_FILE = FirebaseSortData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nkpro.FirebaseSortData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4546061ED69EAF00E981D5 /* Build configuration list for PBXProject "FirebaseSortData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C45461B1ED69EAF00E981D5 /* Debug */,
+				4C45461C1ED69EAF00E981D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C45461D1ED69EAF00E981D5 /* Build configuration list for PBXNativeTarget "FirebaseSortData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C45461E1ED69EAF00E981D5 /* Debug */,
+				4C45461F1ED69EAF00E981D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4546031ED69EAF00E981D5 /* Project object */;
+}
